@@ -1,0 +1,496 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Okra, Helvetica, sans-serif;
+}
+
+.headerdiv {
+    margin-bottom: 10px;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    flex-wrap: nowrap;
+    font-family: Okra, Helvetica, sans-serif;
+}
+
+.nav_links {
+    list-style: none;
+
+
+
+
+
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: rgb(105, 105, 105);
+    font-size: 23px;
+    font-weight: initial;
+    opacity: 0.75;
+}
+
+.nav_links li a:hover {
+    opacity: 1;
+}
+
+header.searchbox {
+    border: 0;
+    outline: none;
+    color: #FFFFFF;
+    width: 750px;
+
+}
+
+header.innerBox1 {
+
+    width: 154px;
+    margin: 22px;
+    padding: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    height: 51px;
+}
+
+header.innerBox2 {
+    display: inline-block;
+}
+
+/* home/india/section */
+
+.homesection {
+    width: 100%;
+    height: 22px;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+}
+
+.homesectiondiv1 {
+    height: 19px;
+    margin-left: 177px;
+
+}
+
+.homesectiondiv1 ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-size: 13px;
+    margin-left: -41px;
+}
+
+.homesectiondiv1 ul li {
+    color: rgb(105, 105, 105);
+    /* width: 15px; */
+    margin-left: 10px;
+}
+
+/* .home{
+    color: rgb(105, 105, 105);
+    width: 15px;
+    margin-left: 10px;
+} */
+.homesectiondiv1 ul li a {
+    text-decoration: none;
+    color: rgb(105, 105, 105);
+}
+
+.homesectiondiv1 ul li a:hover {
+    color: red;
+}
+
+/* .home,a{
+    text-decoration: none;
+} */
+
+/* deliverysection */
+.deliverysection {
+
+    height: 130px;
+    box-shadow: 5px 5px 5px burlywood;
+    margin-left: 174px;
+    margin-right: 169px;
+    background-color: aquamarine;
+}
+
+
+/* smallboxes */
+.smallboxes {
+
+    height: 82px;
+    background-color: antiquewhite;
+    margin-left: 174px;
+    margin-right: 169px;
+    margin-top: -22px;
+}
+
+
+/* firstorder */
+.firstorder {
+    margin-left: 174px;
+    margin-right: 169px;
+    height: 270px;
+    background-color: whitesmoke;
+    margin-top: -22px;
+}
+
+/* main _section */
+.grid-container {
+    display: grid;
+    background-color: chocolate;
+
+    grid-column-gap: 50px;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: 460px;
+
+    padding: 10px;
+    grid-row-gap: 50px;
+}
+
+.grid-container {
+    display: grid;
+
+    background-color: rgb(209, 205, 202);
+    margin-left: 174px;
+    margin-right: 169px;
+    margin-top: -22px;
+    height: 1345px;
+    grid-column-gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+    grid-row-gap: 50px;
+    /* padding-top: 88px; */
+    grid-template-rows: 400px;
+}
+
+.delivery_div {
+    margin-left: 174px;
+    margin-right: 169px;
+    background-color: rgb(209, 205, 202);
+    height: 61px;
+}
+
+.grid-item {
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+}
+
+.grid-item:hover {
+    box-shadow: -4px 4px 4px 10px #7a7777;
+}
+
+.starbucks_cofee {
+    width: 300px;
+    height: 230px;
+    border-radius: 10px;
+}
+
+.card-section1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.card-section1 h3 {
+    font-size: 30px;
+    font-weight: inherit;
+    margin-top: auto;
+}
+
+.card-section1 p {
+    margin-top: -24px;
+    font-size: initial;
+}
+
+.button {
+    height: 22px;
+    border-radius: 8px;
+    color: rgb(58, 183, 87);
+    background-color: rgb(208, 230, 214);
+    font-weight: 300px;
+}
+
+.horizontal-line {
+    opacity: 0.15;
+}
+
+.card-section1-footer {
+    font-size: initial;
+    opacity: 0.75;
+}
+
+/* end of page */
+
+.end-of-page {
+    margin-left: 177px;
+    margin-right: 169px;
+    height: 200px;
+    margin-top: 0px;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.end-of-page-img {
+    height: 110px;
+}
+
+.space {
+    height: 150px;
+    background-color: aliceblue;
+    margin-left: 177px;
+    margin-right: 169px;
+}
+
+.explore-near-by {
+    margin-left: 177px;
+    margin-right: 169px;
+    height: 300px;
+    background-color: rgb(204, 220, 235);
+
+}
+
+.explore-near-by ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.explore-near-by li {
+    margin: 10px;
+}
+
+.top-restaurant-chains {
+    margin-left: 177px;
+    margin-right: 169px;
+    height: 150px;
+    background-color: rgb(204, 220, 235);
+}
+
+.top-restaurant-chains ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cities-we-deliver-to {
+    margin-left: 177px;
+    margin-right: 169px;
+    height: 650px;
+    background-color: rgb(204, 220, 235);
+}
+
+.cities-we-deliver-to-div {
+    height: 610px;
+}
+
+.cities-we-deliver-to ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-color: snow;
+    height: 610px;
+    list-style: none;
+    /* flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between; */
+}
+
+/* footer */
+
+.footer-main {
+    background-color: #F8F8F8;
+    height: 593px;
+}
+
+.footer-inner {
+    margin-left: 177px;
+    margin-right: 169px;
+    /* background-color: rgb(187, 187, 202); */
+    height: 95px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.footer-image {
+    width: 123.9px;
+    height: 27px;
+    display: block;
+    cursor: pointer;
+    padding-left: 2%;
+}
+
+.footer-inner-button1 {
+    margin-left: 700px;
+    height: 50px;
+    width: 120px;
+    cursor: pointer;
+
+}
+
+.footer-inner-button2 {
+    margin-left: 30px;
+    height: 50px;
+    width: 120px;
+    cursor: pointer;
+
+}
+
+.footer-inner-space {
+    height: 40px;
+    margin-left: 177px;
+    margin-right: 169px;
+    /* background-color: rgb(179, 138, 138); */
+}
+
+.footer-inner-titles {
+    height: 250px;
+    /* background-color: rgb(201, 159, 80); */
+    margin-left: 177px;
+    margin-right: 169px;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; */
+
+}
+
+.footer-inner-container {
+    display: flex;
+    /* background-color: rgb(201, 201, 177); */
+}
+
+.footer-inner-container>div {
+    /* background-color: #f1f1f1; */
+    margin: 10px;
+    padding: 47px;
+    font-size: 16px;
+}
+
+/* .footer-contents{
+    margin-left: 177px;
+    margin-right: 169px;
+    height: 300px;
+    background-color: rgb(209, 209, 181);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+     border: 1 px solid; 
+    grid-column-gap: 20px;
+    
+    padding: 10px;
+    
+padding-top: 88px; 
+    grid-template-rows: 400px;
+}
+.footer-contents-in-grid{
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: -35px;
+}
+
+.contact li{
+    list-style: none;
+    font-size: 15px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* second section */
+.navigationBar {
+    width: 100%;
+    max-width: 110rem;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100%;
+    justify-content: space-between;
+    -moz-box-align: center;
+    position: relative;
+}
+
+.titleImage {
+    width: 123.9px;
+    height: 27px;
+    display: block;
+    cursor: pointer;
+    padding-left: 2%;
+
+}
+
+.ul1 {
+    width: 100%;
+    max-width: 100%;
+    height: 72px;
+    flex-wrap: nowrap;
+    background: transparent;
+    -moz-box-align: center;
+    align-items: center;
+    display: flex;
+    -moz-box-pack: end;
+    justify-content: flex-end;
+    opacity: 1;
+    box-sizing: inherit;
+    padding: 17px;
+}
+
+.innerBox {
+    width: 100%;
+    height: 100px;
+    background: #FFFFFF;
+    align-items: center;
+}
